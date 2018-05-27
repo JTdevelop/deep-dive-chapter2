@@ -12,6 +12,6 @@
     dist = 7.2 * 1100;
 
     System.out.println("the Lightning is " + dist + " feet away.");
-    
+
   }
 }
