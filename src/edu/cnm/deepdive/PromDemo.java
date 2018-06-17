@@ -8,7 +8,10 @@ class PromDemo {
     int i;
 
     b = 10;
-    i = (byte) (b * b); // cast needed!!
+    i = b * b; // OK, no cast needed
+
+    b = 10;
+    b = (byte) (b * b); // cast needed!!
 
     System.out.println("i and b: " + i + " " + b);
   }
