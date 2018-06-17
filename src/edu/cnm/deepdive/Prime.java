@@ -1,5 +1,6 @@
-// Find prime numbers between 2 and 100.
+package edu.cnm.deepdive;
 
+// Find prime numbers between 2 and 100.
 public class Prime {
 
   public static void main(String args[]) {
@@ -20,9 +21,7 @@ public class Prime {
 
       if (isprime) {
         System.out.println(i + "is prime.");
-        
       }
-
     }
   }
 }
